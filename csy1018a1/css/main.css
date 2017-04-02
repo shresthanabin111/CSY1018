@@ -1,17 +1,38 @@
+Name: Nabin Shrestha
+UN ID: 16418525
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Griffy');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Griffy|Lobster');
+*{margin: 0px;
+padding: 0px;}
 body{
   margin: 0%;
   padding: 0%;
-  background-image: url(../images/nature.jpg);
   max-width: 100%;
   max-height: 100%;
 }
-h1{
-  text-align: center;
-  font-size: 4em
+ .section1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-shadow: 1.5px 1.5px red;
 }
-
+.section3 {
+  padding-left: 200px;
+}
+.section2 {
+  padding-left: 300px;
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+}
+#head1 {
+  background-image: url(../images/man-coffee-cup-pen.jpg);
+  padding: 20px;
+  padding-bottom: 180px;
+  padding-left: 20%;
+  background-size: cover;
+}
 div.images{
   text-align: center;
 }
@@ -34,59 +55,108 @@ div.images{
 }
 nav ul li {
    display: flex; flex-direction: row;
-   display: inline-block;
+   height: 44px;
+   line-height: 60px;
+   display: block;
    list-style-type: none;
-   margin-left: 10px;
+   width: 150px;
  }
 .images {
   width: 250px;
    height: 200px;
    background: red;
-   -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+   -webkit-transition: width 2s, height 4s;
    transition: width 2s, height 4s;
+
+
 }
 .images:hover{
   width: 290px;
    height: 250px;
 }
-h1 {
+  .head {
    font-family: 'Oswald', sans-serif;
-   font-size: 2em;
+   font-size: 1.6em;
    text-align: center;
    text-shadow: 1px 1px 2px red;
-   color: white;
+   color: #B3B5CA;
  }
- nav ul{
-   display: inline;
-   padding: 0px;
-   display: flex; flex-direction: row;
-   margin-left: 10px;
 
+ nav ul{
+   display: flex; flex-direction: row;
+   justify-content: space-around;
  }
  nav ul li a {
    text-decoration: none;
    color: white;
-   justify-content: space-around;
    font-size: 1.5em;
-
+   display: block;
+   text-align: center;
+}
+.divide {
+  background-color: red;
+  height: 4px;
+}
+.divide:hover {
+  background-color: skyblue;
+}
+.first {
+  background-color: rgba(163, 230, 215, 0.73);
+}
+ .red{
+   background-color: red;
  }
- .home {
-    font-family: 'Montserrat', sans-serif;
- }
+.second {
+  opacity: 0.8;
+}
  header {
-
+   background: black;
    color: white;
-   padding: 10px 0px 5px 20px;
  }
-.home li:hover {
-  border-radius: 0;
+.red:hover{
+  background-color: skyblue;
 }
-header {
-  background: black;
+.blue:hover{
+  background-color: skyblue;
 }
-@media all and (max-width:400px){
-  header, home{
-    flex-direction: column;
-  }
+footer {
+  background-color: rgba(163, 230, 215, 0.73);
+  padding: 5% 10% 5% 10%;
 
+}
+.div {
+  padding-left: 40%;
+}
+.div img {
+  padding: 6px;
+  font-size: 0.5em;
+}
+.footer {
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  display: flex; flex-direction: row;
+}
+.social img {
+  width: 40px;
+  height: 40px;
+  transition: all is ease;
+}
+.social img:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}
+@media all and (max-width:450px){
+
+  nav ul {display: flex; flex-direction: column; justify-content: center;}
+  nav ul li { width: 100%; text-align: center;}
+  nav ul li a{width: 100%;}
+  .red{width: 100%;}
+  .section1{ padding-left: 5px;font-size: 2em;}
+  .section3{padding-left: 50px;}
+.section2{padding-left: 25px; font-size: 1em;}
+
+.home{ flex-direction: column;}
+.images{flex-direction: column; margin-left:25px;}
+.footer {flex-direction: column;}
 }

@@ -1,0 +1,80 @@
+Name: Nabin Shrestha
+UN ID: 16418525
+*{margin: 0px;
+padding: 0px;}
+body {
+  background-color: rgba(163, 230, 215, 0.73);
+}
+.contact2 {
+  background-color: #B9B4A8;
+  padding: 20px 20px 20px 20px;
+  margin: 80px 0px 0px 80px;
+  border-radius: 10px;
+
+}
+.coment{
+  height: 100px;
+  width: 350px;
+}
+.submit {
+  margin-left: 20px;
+  -webkit-transition: width 2s, height 4s;
+  transition: width 2s, height 4s;
+}
+.submit:hover{
+  width: 50px;
+  height: 25px;
+}
+.submit:hover {
+  background-color: skyblue;
+}
+.contact1{
+  background-color: #B9B4A8;
+  display: flex; flex-direction: column;
+  border-radius: 10px;o
+  justify-content: space-around;
+  padding: 15px 95px 30px 50px;
+  margin: 80px 10px 5px 85px;
+  color: white;
+}
+.contact0 {
+  display: flex; flex-direction: row;
+  margin-left: 50px;
+}
+img {
+  height: 40px;
+  width: 45px;
+
+}
+.footer {
+  display: flex; flex-direction: row;
+  background-color: #D38F67;
+  margin: 75px 2px 0px 2px;
+  padding: 15px 0px 30px 0px;
+  justify-content: space-around;
+}
+
+.facebook:hover{
+  background: skyblue;
+  transform: scale(1.1);
+}
+.google:hover{
+  background: skyblue;
+  transform: scale(1.1);
+
+}
+.insta:hover{
+  background: skyblue;
+  transform: scale(1.1);
+}
+textarea{ margin-right: 100px; margin-left: 50px; width: 300px;}
+.comment5 {
+
+}
+.header {
+  padding: 15px 0px 0px 120px;
+}
+.map img{
+  width: 400px;
+  height: 200px;
+}
