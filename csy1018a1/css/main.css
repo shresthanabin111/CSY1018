@@ -1,5 +1,5 @@
-Name: Nabin Shrestha
-UN ID: 16418525
+/*Name: Nabin Shrestha
+UN ID: 16418525*/
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Griffy');
@@ -166,6 +166,10 @@ footer {
   .section2{padding-left: 25px; font-size: 1em;}
   ul {padding-left: 0px;}
 .home{display: flex;flex-direction: column;}
-.images{display: flex;flex-direction: column; margin-left:20px; }
+.images{display: flex;flex-direction: column; margin-left:18%; }
 .footer {flex-direction: column;}
+.images:hover{
+  width: 250px;
+   height: 200px;
+}
 }
