@@ -156,7 +156,7 @@ footer {
 .copy{font-size: 1.2em; color: black;}
 .develop{font-size: 1.2em;color: black;}
 
-@media all and (max-width:450px) {
+@media all and (max-width:750px) {
   nav ul {display: flex; flex-direction: column; justify-content: center;}
   nav ul li { width: 100%; text-align: center;}
   nav ul li a{width: 100%;}

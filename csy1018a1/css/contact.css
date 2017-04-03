@@ -193,7 +193,7 @@ footer {
 .copy{font-size: 1.2em; color: black;}
 .develop{font-size: 1.2em;color: black;}
 
-@media all and (max-width:450px) {
+@media all and (max-width:750px) {
   nav ul {display: flex; flex-direction: column; justify-content: center;}
   nav ul li { width: 100%; text-align: center;}
   nav ul li a{width: 100%;}
@@ -215,7 +215,7 @@ footer {
   .comment5{height: 100px; width: 250px;}
   .contact1{  padding: 20px 20px 20px 10px;
     margin: 80px 0px 80px 2px;}
-  .map img{width: 313px;}
+  .map img{width: 310px;}
   .footer {display: flex;flex-direction: column;}
   .header {font-size: 1.3em;}
   .class1{font-size: 1.2em;}
