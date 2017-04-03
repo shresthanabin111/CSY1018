@@ -102,7 +102,7 @@ ul {
 .contact2 {
   background-color: #B9B4A8;
   padding: 20px 20px 20px 20px;
-  margin: 80px 0px 100px 80px;
+  margin: 80px 55px 100px 70px;
   border-radius: 10px;
 
 }
@@ -125,10 +125,10 @@ ul {
 .contact1{
   background-color: #B9B4A8;
   display: flex; flex-direction: column;
-  border-radius: 10px;o
+  border-radius: 10px;
   justify-content: space-around;
-  padding: 15px 95px 10px 50px;
-  margin: 80px 10px 100px 85px;
+  padding: 15px 0px 10px 40px;
+  margin: 80px 5px 100px 45px;
   color: white;
 }
 .contact0 {
@@ -160,6 +160,9 @@ textarea{ margin-right: 100px; margin-left: 50px; width: 300px;}
 .map img{
   width: 400px;
   height: 200px;
+}
+.map {
+  padding-right: 20px;
 }
 footer {
   background-color: rgba(163, 230, 215, 0.73);
@@ -196,7 +199,7 @@ footer {
   nav ul li a{width: 100%;}
   .red1{width: 100%;}
   .home{display: flex;flex-direction: column;}
-  .images{display: flex;flex-direction: column; margin-left:15%; }
+  .images{display: flex;flex-direction: column; margin-left:12%; }
   ul {padding-left: 0px;}
   .images:hover{
     width: 250px;
@@ -211,11 +214,13 @@ footer {
     margin: 0px 0px 5px 2px;}
   .comment5{height: 100px; width: 250px;}
   .contact1{  padding: 20px 20px 20px 10px;
-    margin: 80px 0px 100px 2px;}
+    margin: 80px 0px 80px 2px;}
   .map img{width: 313px;}
   .footer {display: flex;flex-direction: column;}
   .header {font-size: 1.3em;}
   .class1{font-size: 1.2em;}
   .copy {font-size: 0.9em;}
   .develop{font-size: 0.9em;}
+  .body {margin-left: 0px;}
+  .footer{padding-left: 12%;}
 }

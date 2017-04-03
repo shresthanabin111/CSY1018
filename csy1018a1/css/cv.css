@@ -1,7 +1,7 @@
 /*Name: Nabin Shrestha
 UN ID: 16418525*/
-*{margin: 0;
- padding:0;}
+*{margin: 0px;
+ padding:0px;}
 body {
   background-color: rgba(163, 230, 215, 0.73);
   margin: 2px;
@@ -162,7 +162,7 @@ footer {
   nav ul li a{width: 100%;}
   .red1{width: 100%;}
   .home{display: flex;flex-direction: column;}
-  .images{display: flex;flex-direction: column; margin-left:15%; }
+  .images{display: flex;flex-direction: column; margin-left:12%; }
   ul {padding-left: 0px;}
   h1 {font-size: 1.5em;}
   .personal{font-size: 0.8em;display: flex; flex-direction: column;}

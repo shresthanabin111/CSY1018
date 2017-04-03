@@ -166,11 +166,11 @@ footer {
   .section2{padding-left: 25px; font-size: 1em;}
   ul {padding-left: 0px;}
 .home{display: flex;flex-direction: column;}
-.images{display: flex;flex-direction: column; margin-left:15%; }
+.images{display: flex;flex-direction: column; margin-left:12%; }
 .footer {flex-direction: column;}
 .images:hover{
   width: 250px;
    height: 200px;}
 .copy{font-size: 0.9em;}
-.develop{font-size: 0.9em;}   
+.develop{font-size: 0.9em;}
 }
