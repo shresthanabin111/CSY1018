@@ -35,6 +35,7 @@ body{
 }
 div.images{
   text-align: center;
+  margin-top: 20px;
 }
 
 .images {
@@ -81,7 +82,9 @@ nav ul li {
    text-shadow: 1px 1px 2px red;
    color: #B3B5CA;
  }
-
+ul {
+  margin-top: 0px;
+}
  nav ul{
    display: flex; flex-direction: row;
    justify-content: space-around;
@@ -102,6 +105,7 @@ nav ul li {
 }
 .first {
   background-color: rgba(163, 230, 215, 0.73);
+  padding: 10px 0px 20px 0px;
 }
  .red{
    background-color: red;
@@ -116,13 +120,18 @@ nav ul li {
 .red:hover{
   background-color: skyblue;
 }
-.blue:hover{
+.red1:hover{
+  background-color: skyblue;
+}
+.red2:hover{
+  background-color: skyblue;
+}
+.red3:hover{
   background-color: skyblue;
 }
 footer {
   background-color: rgba(163, 230, 215, 0.73);
   padding: 5% 10% 5% 10%;
-
 }
 .div {
   padding-left: 40%;
@@ -154,9 +163,9 @@ footer {
   .red{width: 100%;}
   .section1{ padding-left: 5px;font-size: 2em;}
   .section3{padding-left: 50px;}
-.section2{padding-left: 25px; font-size: 1em;}
-
-.home{ flex-direction: column;}
-.images{flex-direction: column; margin-left:25px;}
+  .section2{padding-left: 25px; font-size: 1em;}
+  ul {padding-left: 0px;}
+.home{display: flex;flex-direction: column;}
+.images{display: flex;flex-direction: column; margin-left:20px; }
 .footer {flex-direction: column;}
 }

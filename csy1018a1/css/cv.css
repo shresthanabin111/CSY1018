@@ -4,9 +4,101 @@ UN ID: 16418525
  padding:0;}
 body {
   background-color: rgba(163, 230, 215, 0.73);
-;
   margin: 2px;
 }
+div.images{
+  text-align: center;
+}
+
+.images {
+  border-radius: 20px 20px 20px 20px;
+  width: 250px;
+  margin-left: 40%;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.images img {
+  height: 100%;  width: 100%;
+  transition: all is ease;
+
+}
+.images img:hover {
+  transform: scale(1.2);
+}
+nav ul li {
+   display: flex; flex-direction: row;
+   height: 44px;
+   line-height: 60px;
+   display: block;
+   list-style-type: none;
+   width: 150px;
+ }
+.images {
+  width: 250px;
+   height: 200px;
+   background: red;
+   -webkit-transition: width 2s, height 4s;
+   transition: width 2s, height 4s;
+
+
+}
+.images:hover{
+  width: 290px;
+   height: 250px;
+}
+  .head {
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.6em;
+   text-align: center;
+   text-shadow: 1px 1px 2px red;
+   color: #B3B5CA;
+ }
+ul {
+  margin-top: 0px;
+}
+ nav ul{
+   display: flex; flex-direction: row;
+   justify-content: space-around;
+ }
+ nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.5em;
+   display: block;
+   text-align: center;
+}
+.divide {
+  background-color: red;
+  height: 4px;
+}
+.divide:hover {
+  background-color: skyblue;
+}
+.first {
+  background-color: rgba(163, 230, 215, 0.73);
+  padding: 28px 0px 20px 0px;
+
+}
+.red1{
+   background-color: red;
+ }
+.second {
+  opacity: 0.8;
+  background-color: black;
+}
+.red1:hover{
+  background-color: skyblue;
+}
+.red:hover{
+  background-color: skyblue;}
+
+.red2:hover{
+  background-color: skyblue;}
+
+.red3:hover{
+  background-color: skyblue;}
+
 h3 {
   font-size: 2em;
   border: 5px solid Transparent;
@@ -22,12 +114,62 @@ h3 {
 }
 .image1 {
   display: flex; flex-direction: row;
+  padding-top: 0%;
 }
 .imagess {
   margin-left: 200px;}
 h2{
-  padding: 5px 5px 5px 5px;
+  padding: 0px 5px 0px 5px;
 }
  h1 {
    padding: 10px 0px 0px 10px;
  }
+h3 {
+  margin: 0px 0px 0px 0px;
+}
+footer {
+  background-color: rgba(163, 230, 215, 0.73);
+  padding: 5% 10% 5% 10%;
+}
+.div {
+  padding-left: 40%;
+}
+.div img {
+  padding: 6px;
+  font-size: 0.5em;
+}
+.footer {
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  display: flex; flex-direction: row;
+}
+.social img {
+  width: 40px;
+  height: 40px;
+  transition: all is ease;
+}
+.social img:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}
+.copy{font-size: 1.2em; color: black;}
+.develop{font-size: 1.2em;color: black;}
+
+@media all and (max-width:450px) {
+  nav ul {display: flex; flex-direction: column; justify-content: center;}
+  nav ul li { width: 100%; text-align: center;}
+  nav ul li a{width: 100%;}
+  .red1{width: 100%;}
+  .home{display: flex;flex-direction: column;}
+  .images{display: flex;flex-direction: column; margin-left:53.5px; }
+  ul {padding-left: 0px;}
+  h1 {font-size: 1.5em;}
+  .personal{font-size: 0.8em;display: flex; flex-direction: column;}
+  .para1 {font-size: 0.6em; display: flex; flex-direction: column;}
+  .education {font-size: 1.4em;display: flex; flex-direction: column;}
+  .graduate {font-size: 0.9em;display: flex; flex-direction: column;}
+  .training{font-size: 1.4em;display: flex; flex-direction: column;}
+  .train {font-size: 0.9em;display: flex; flex-direction: column;}
+  .footer {flex-direction: column;}
+}
