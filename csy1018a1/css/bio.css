@@ -1,5 +1,7 @@
 /*Name: Nabin Shrestha
 UN ID: 16418525*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
 *{margin: 0px;
 padding: 0px;}
 
@@ -50,7 +52,7 @@ nav ul li {
 }
   .head {
    font-family: 'Oswald', sans-serif;
-   font-size: 1.6em;
+   font-size: 1.7em;
    text-align: center;
    text-shadow: 1px 1px 2px red;
    color: #B3B5CA;

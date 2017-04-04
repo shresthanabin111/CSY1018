@@ -1,5 +1,7 @@
 /*Name: Nabin Shrestha
 UN ID: 16418525*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
 *{margin: 0px;
 padding: 0px;}
 body {
@@ -49,7 +51,7 @@ nav ul li {
 }
   .head {
    font-family: 'Oswald', sans-serif;
-   font-size: 1.6em;
+   font-size: 1.7em;
    text-align: center;
    text-shadow: 1px 1px 2px red;
    color: #B3B5CA;
@@ -102,7 +104,7 @@ ul {
 .contact2 {
   background-color: #B9B4A8;
   padding: 20px 20px 20px 20px;
-  margin: 80px 55px 100px 70px;
+  margin: 80px 15px 100px 10px;
   border-radius: 10px;
 
 }
@@ -110,6 +112,7 @@ ul {
   height: 100px;
   width: 350px;
 }
+
 .submit {
   margin-left: 20px;
   -webkit-transition: width 2s, height 4s;
@@ -128,7 +131,7 @@ ul {
   border-radius: 10px;
   justify-content: space-around;
   padding: 15px 0px 10px 40px;
-  margin: 80px 5px 100px 45px;
+  margin: 80px 5px 100px 5px;
   color: white;
 }
 .contact0 {
@@ -190,6 +193,7 @@ footer {
   background-color: blue;
   transform: scale(1.2);
 }
+  .comment5{height: 100px; width: 290px; }
 .copy{font-size: 1.2em; color: black;}
 .develop{font-size: 1.2em;color: black;}
 
@@ -212,7 +216,7 @@ footer {
   .contact2 {
     padding: 20px 20px 20px 10px;
     margin: 0px 0px 5px 2px;}
-  .comment5{height: 100px; width: 250px;}
+  .comment5{height: 100px; width: 180px; }
   .contact1{  padding: 20px 20px 20px 10px;
     margin: 80px 0px 80px 2px;}
   .map img{width: 310px;}
@@ -221,6 +225,5 @@ footer {
   .class1{font-size: 1.2em;}
   .copy {font-size: 0.9em;}
   .develop{font-size: 0.9em;}
-  .body {margin-left: 0px;}
   .footer{padding-left: 12%;}
 }
