@@ -1,17 +1,17 @@
 /*Name: Nabin Shrestha
 UN ID: 16418525*/
+
+/*font imported from google font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
-*{margin: 0px;
-padding: 0px;}
+*{margin: 0px; padding: 0px;}
 
 body {
-  background: rgba(163, 230, 215, 0.73);
-  margin: 0%;
-}
+  background: rgba(163, 230, 215, 0.73);*micture of red green blue alpha color*/
+  margin: 0%;}
+
 div.images{
-  text-align: center;
-}
+  text-align: center;} /* it aligns the text in center*/
 
 .images {
   border-radius: 20px 20px 20px 20px;
@@ -19,80 +19,76 @@ div.images{
   margin-left: 40%;
   height: 200px;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
 .images img {
   height: 100%;  width: 100%;
-  transition: all is ease;
+  transition: all is ease;}
 
-}
-.images img:hover {
-  transform: scale(1.2);
-}
+.images img:hover {transform: scale(1.2);}/* hover works when mouse move over the text*/
+
 nav ul li {
    display: flex; flex-direction: row;
    height: 56px;
    line-height: 60px;
    display: block;
    list-style-type: none;
-   width: 150px;
- }
+   width: 150px;}
+
 .images {
   width: 250px;
-   height: 200px;
-   background: red;
-   -webkit-transition: width 2s, height 4s;
-   transition: width 2s, height 4s;
+  height: 200px;
+  background: red;
+  -webkit-transition: width 2s, height 4s; /*for safari*/
+  -o-transition:  width 2s, height 4s; /*for opera*/
+  -moz-transition:  width 2s, height 4s; /*for mozilla*/
+  transition: width 2s, height 4s;}
 
-
-}
 .images:hover{
   width: 290px;
-   height: 250px;
-}
-  .head {
-   font-family: 'Oswald', sans-serif;
+   height: 250px;}
+
+.head {
+   font-family: 'Oswald', sans-serif;/*font-family imported from google font*/
    font-size: 1.7em;
    text-align: center;
    text-shadow: 1px 1px 2px red;
-   color: #B3B5CA;
- }
-ul {
-  margin-top: 0px;
-}
- nav ul{
-   display: flex; flex-direction: row;
-   justify-content: space-around;
- }
- nav ul li a {
-   text-decoration: none;
-   color: white;
+   color: #B3B5CA;}
+
+ul {margin-top: 0px;}
+
+nav ul{
+   display: flex; flex-direction: row;/*it define the flex as row inside a flex container*/
+   justify-content: space-around;}/*justify content space around in any section*/
+
+nav ul li a {
+   text-decoration: none;*it gives the decoration of text*/
+   color: white;/*decoration of text*/
    font-size: 1.5em;
-   display: block;
-   text-align: center;
-}
+   display: block;/*define text as a block*/
+   text-align: center;}
+
 .divide {
   background-color: red;
-  height: 4px;
-}
+  height: 4px;}
+
 .divide:hover {
-  background-color: skyblue;
-}
+  background-color: skyblue;}
+
 .first {
   background-color: rgba(163, 230, 215, 0.73);
-  padding: 28px 0px 20px 0px;
+  padding: 28px 0px 20px 0px;}
 
-}
  .red2{
-   background-color: red;
- }
+   background-color: red;}
+
 .second {
   opacity: 0.8;
-  background-color: black;
-}
+  background-color: black;}
+
 .red:hover{
-  background-color: skyblue;
-}
+  background-color: skyblue;}
+
 .red1:hover{
   background-color: skyblue;}
 
@@ -103,59 +99,60 @@ ul {
   background-color: skyblue;}
 
 h1{
-  padding: 10px 0px 10px 10px;
-}
+  padding: 10px 0px 10px 10px;}
+
 .biography{
   padding: 50px;
   background: skyblue;
   margin-right: 15px;
-  padding-bottom: 0px;
-}
+  padding-bottom: 0px;}
+
 p {
   font-size: 1.2em;
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;}
 
-}
 img {
   height: 350px;
-  width: 300px;
-}
+  width: 300px;}
+
 .main {
-  display: flex; flex-direction: row-reverse;
-}
+  display: flex; flex-direction: row-reverse;}
+
 .imagess {
-  margin-left: 15px;
-}
+  margin-left: 15px;}
+
 footer {
   background-color: rgba(163, 230, 215, 0.73);
-  padding: 5% 10% 5% 10%;
-}
+  padding: 5% 10% 5% 10%;}
+
 .div {
-  padding-left: 40%;
-}
+  padding-left: 40%;}
+
 .div img {
   padding: 6px;
-  font-size: 0.5em;
-}
+  font-size: 0.5em;}
+
 .footer {
   justify-content: space-around;
   padding-bottom: 25px;
   padding-top: 15px;
-  display: flex; flex-direction: row;
-}
+  display: flex; flex-direction: row;}
+
 .social img {
   width: 40px;
   height: 40px;
-  transition: all is ease;
-}
+  transition: all is ease;}
+
 .social img:hover {
   background-color: blue;
-  transform: scale(1.2);
-}
+  transform: scale(1.2);}
+
 .copy{font-size: 1.2em; color: black;}
+
 .develop{font-size: 1.2em;color: black;}
 
-@media all and (max-width:750px) {
+@media all and (max-width:750px)/* media query makes the website responsive*/
+{
   nav ul {display: flex; flex-direction: column; justify-content: center;}
   nav ul li { width: 100%; text-align: center;}
   nav ul li a{width: 100%;}
@@ -170,8 +167,5 @@ footer {
   .footer {display: flex; flex-direction: column;}
   .copy {font-size: 0.9em;}
   .develop{font-size: 0.9em;}
-  .images:hover{
-    width: 250px;
-     height: 200px;
-  }
+  .images:hover{width: 250px; height: 200px;}
 }

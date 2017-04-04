@@ -1,16 +1,17 @@
 /*Name: Nabin Shrestha
 UN ID: 16418525*/
+
+/*font imported from google font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
-*{margin: 0px;
-padding: 0px;}
+
+*{margin: 0px;padding: 0px;}
+
 body {
-  background-color: rgba(163, 230, 215, 0.73);
-  margin: 0%;
-}
-div.images{
-  text-align: center;
-}
+  background-color: rgba(163, 230, 215, 0.73);/*micture of red green blue alpha color*/
+  margin: 0%;}
+
+div.images{text-align: center;} /* it aligns the text in center*/
 
 .images {
   border-radius: 20px 20px 20px 20px;
@@ -18,79 +19,77 @@ div.images{
   margin-left: 40%;
   height: 200px;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
 .images img {
   height: 100%;  width: 100%;
-  transition: all is ease;
+  transition: all is ease;}
 
-}
 .images img:hover {
-  transform: scale(1.2);
-}
+  transform: scale(1.2);}/* hover works when mouse move over the text*/
+
 nav ul li {
    display: flex; flex-direction: row;
    height: 56px;
    line-height: 60px;
    display: block;
    list-style-type: none;
-   width: 150px;
- }
+   width: 150px;}
+
 .images {
   width: 250px;
    height: 200px;
    background: red;
-   -webkit-transition: width 2s, height 4s;
-   transition: width 2s, height 4s;
+   -webkit-transition: width 2s, height 4s; /*for safari*/
+   -o-transition:  width 2s, height 4s; /*for opera*/
+   -moz-transition:  width 2s, height 4s; /*for mozilla*/
+   transition: width 2s, height 4s;}
 
-
-}
 .images:hover{
   width: 290px;
-   height: 250px;
-}
-  .head {
-   font-family: 'Oswald', sans-serif;
+   height: 250px;}
+
+.head {
+   font-family: 'Oswald', sans-serif;/*font-family imported from google font*/
    font-size: 1.7em;
    text-align: center;
    text-shadow: 1px 1px 2px red;
-   color: #B3B5CA;
- }
-ul {
-  margin-top: 0px;
-}
- nav ul{
-   display: flex; flex-direction: row;
-   justify-content: space-around;
- }
- nav ul li a {
-   text-decoration: none;
-   color: white;
+   color: #B3B5CA;}
+
+ul {margin-top: 0px;}
+
+nav ul{
+   display: flex; flex-direction: row;/*it define the flex as row inside a flex container*/
+   justify-content: space-around;}/*justify content space around in any section*/
+
+nav ul li a {
+   text-decoration: none;/*it gives the decoration of text*/
+   color: white;/*decoration of text*/
    font-size: 1.5em;
-   display: block;
-   text-align: center;
-}
+   display: block;/*define text as a block*/
+   text-align: center;}
+
 .divide {
   background-color: red;
-  height: 4px;
-}
+  height: 4px;}
+
 .divide:hover {
-  background-color: skyblue;
-}
+  background-color: skyblue;}
+
 .first {
   background-color: rgba(163, 230, 215, 0.73);
-  padding: 28px 0px 20px 0px;
-}
- .red3{
-   background-color: red;
- }
+  padding: 28px 0px 20px 0px;}
+
+.red3{
+   background-color: red;}
+
 .second {
   opacity: 0.8;
-  background-color: black;
-}
+  background-color: black;}
+
 .red:hover{
-  background-color: skyblue;
-}
+  background-color: skyblue;}
+
 .red1:hover{
   background-color: skyblue;}
 
@@ -100,104 +99,105 @@ ul {
 .red3:hover{
   background-color: skyblue;}
 
-
 .contact2 {
   background-color: #B9B4A8;
   padding: 20px 20px 20px 20px;
   margin: 80px 15px 100px 10px;
-  border-radius: 10px;
+  border-radius: 10px;}
 
-}
 .coment{
   height: 100px;
-  width: 350px;
-}
+  width: 350px;}
 
 .submit {
   margin-left: 20px;
-  -webkit-transition: width 2s, height 4s;
-  transition: width 2s, height 4s;
-}
+  -webkit-transition: width 2s, height 4s;/*for safari*/
+  -o-transition:  width 2s, height 4s; /*for opera*/
+  -moz-transition:  width 2s, height 4s; /*for mozilla*/
+  transition: width 2s, height 4s;}
+
 .submit:hover{
   width: 50px;
-  height: 25px;
-}
+  height: 25px;}
+
 .submit:hover {
-  background-color: skyblue;
-}
+  background-color: skyblue;}
+
 .contact1{
   background-color: #B9B4A8;
   display: flex; flex-direction: column;
-  border-radius: 10px;
+  border-radius: 10px;/*it maintain the radius of border*/
   justify-content: space-around;
   padding: 15px 0px 10px 40px;
-  margin: 80px 5px 100px 5px;
-  color: white;
-}
+  margin: 80px 5px 100px 5px; /*margin for all sede*/
+  color: white;}
+
 .contact0 {
   display: flex; flex-direction: row;
-  margin-left: 50px;
-}
+  margin-left: 50px;}
+
 img {
   height: 40px;
-  width: 45px;
+  width: 45px;}
 
-}
 .facebook:hover{
   background: skyblue;
-  transform: scale(1.1);
-}
+  transform: scale(1.1);}
+
 .google:hover{
   background: skyblue;
-  transform: scale(1.1);
+  transform: scale(1.1);}
 
-}
 .insta:hover{
   background: skyblue;
-  transform: scale(1.1);
-}
+  transform: scale(1.1);}
+
 textarea{ margin-right: 100px; margin-left: 50px; width: 300px;}
+
 .header {
-  padding: 15px 0px 0px 120px;
-}
+  padding: 15px 0px 0px 120px;}
+
 .map img{
   width: 400px;
-  height: 200px;
-}
+  height: 200px;}
+
 .map {
-  padding-right: 20px;
-}
+  padding-right: 20px;}/*it define padding-right only*/
+
 footer {
   background-color: rgba(163, 230, 215, 0.73);
-  padding: 5% 10% 5% 10%;
-}
+  padding: 5% 10% 5% 10%;} /*define padding for all side*/
+
 .div {
-  padding-left: 40%;
-}
+  padding-left: 40%;}
+
 .div img {
   padding: 6px;
-  font-size: 0.5em;
-}
+  font-size: 0.5em;}
+
 .footer {
   justify-content: space-around;
   padding-bottom: 25px;
   padding-top: 30px;
-  display: flex; flex-direction: row;
-}
+  display: flex; flex-direction: row;}
+
 .social img {
   width: 40px;
   height: 40px;
-  transition: all is ease;
-}
+  transition: all is ease;}
+
 .social img:hover {
   background-color: blue;
-  transform: scale(1.2);
-}
-  .comment5{height: 100px; width: 290px; }
+  transform: scale(1.2);}
+
+.comment5{height: 100px; width: 290px; }
+
 .copy{font-size: 1.2em; color: black;}
+
 .develop{font-size: 1.2em;color: black;}
 
-@media all and (max-width:750px) {
+@media all and (max-width:750px) /* media query makes the website responsive*/
+{
   nav ul {display: flex; flex-direction: column; justify-content: center;}
   nav ul li { width: 100%; text-align: center;}
   nav ul li a{width: 100%;}
@@ -205,20 +205,14 @@ footer {
   .home{display: flex;flex-direction: column;}
   .images{display: flex;flex-direction: column; margin-left:12%; }
   ul {padding-left: 0px;}
-  .images:hover{
-    width: 250px;
-     height: 200px;
-  }
+  .images:hover{width: 250px; height: 200px;}
   .contact0 {display: flex; flex-direction: column; margin-left: 2px;}
   .contact3{display: flex; flex-direction: row;}
   .contact3 a{padding-left: 2px;}
   .contact1{font-size: 0.8em;}
-  .contact2 {
-    padding: 20px 20px 20px 10px;
-    margin: 0px 0px 5px 2px;}
+  .contact2 {padding: 20px 20px 20px 10px; margin: 0px 0px 5px 2px;}
   .comment5{height: 100px; width: 180px; }
-  .contact1{  padding: 20px 20px 20px 10px;
-    margin: 80px 0px 80px 2px;}
+  .contact1{  padding: 20px 20px 20px 10px; margin: 80px 0px 80px 2px;}
   .map img{width: 295px;}
   .footer {display: flex;flex-direction: column;}
   .header {font-size: 1.3em;}
