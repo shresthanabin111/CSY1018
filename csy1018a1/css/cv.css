@@ -44,6 +44,8 @@ nav ul li {
    -moz-transition:  width 2s, height 4s; /*for mozilla*/
    transition: width 2s, height 4s;}
 
+.imagess img{height: 700px;}
+
 .images:hover{
   width: 290px;
    height: 250px;}

@@ -61,7 +61,7 @@ ul {margin-top: 0px;}
 nav ul{
    display: flex; flex-direction: row;/*it define the flex as row inside a flex container*/
    justify-content: space-around;}/*justify content space around in any section*/
-
+   
 nav ul li a {
    text-decoration: none;/*it gives the decoration of text*/
    color: white;/*decoration of text*/
