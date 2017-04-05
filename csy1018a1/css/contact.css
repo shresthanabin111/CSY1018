@@ -22,8 +22,7 @@ div.images{text-align: center;} /* it aligns the text in center*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .images img {
-  height: 100%;  width: 100%;
-  transition: all is ease;}
+  height: 100%;  width: 100%;}
 
 .images img:hover {
   transform: scale(1.2);}/* hover works when mouse move over the text*/
@@ -61,7 +60,7 @@ ul {margin-top: 0px;}
 nav ul{
    display: flex; flex-direction: row;/*it define the flex as row inside a flex container*/
    justify-content: space-around;}/*justify content space around in any section*/
-   
+
 nav ul li a {
    text-decoration: none;/*it gives the decoration of text*/
    color: white;/*decoration of text*/
@@ -102,7 +101,7 @@ nav ul li a {
 .contact2 {
   background-color: #B9B4A8;
   padding: 20px 20px 20px 20px;
-  margin: 80px 15px 100px 10px;
+  margin: 80px 15px 50px 10px;
   border-radius: 10px;}
 
 .coment{
@@ -129,7 +128,7 @@ nav ul li a {
   border-radius: 10px;/*it maintain the radius of border*/
   justify-content: space-around;
   padding: 15px 0px 10px 40px;
-  margin: 80px 5px 100px 5px; /*margin for all sede*/
+  margin: 80px 5px 50px 30px; /*margin for all sede*/
   color: white;}
 
 .contact0 {
@@ -183,8 +182,7 @@ footer {
 
 .social img {
   width: 40px;
-  height: 40px;
-  transition: all is ease;}
+  height: 40px;}
 
 .social img:hover {
   background-color: blue;

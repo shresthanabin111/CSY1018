@@ -7,8 +7,7 @@ UN ID: 16418525*/
 *{margin: 0px; padding: 0px;}
 
 body {
-  background: rgba(163, 230, 215, 0.73);*micture of red green blue alpha color*/
-  margin: 0%;}
+  background: rgba(163, 230, 215, 0.73); margin: 0%;} /*micture of red green blue alpha color*/
 
 div.images{
   text-align: center;} /* it aligns the text in center*/
@@ -22,8 +21,7 @@ div.images{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .images img {
-  height: 100%;  width: 100%;
-  transition: all is ease;}
+  height: 100%;  width: 100%;}
 
 .images img:hover {transform: scale(1.2);}/* hover works when mouse move over the text*/
 
@@ -62,7 +60,7 @@ nav ul{
    justify-content: space-around;}/*justify content space around in any section*/
 
 nav ul li a {
-   text-decoration: none;*it gives the decoration of text*/
+   text-decoration: none;/*it gives the decoration of text*/
    color: white;/*decoration of text*/
    font-size: 1.5em;
    display: block;/*define text as a block*/
@@ -140,8 +138,7 @@ footer {
 
 .social img {
   width: 40px;
-  height: 40px;
-  transition: all is ease;}
+  height: 40px;}
 
 .social img:hover {
   background-color: blue;

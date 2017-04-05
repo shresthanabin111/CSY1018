@@ -22,8 +22,7 @@ div.images{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .images img {
-  height: 100%;  width: 100%;
-  transition: all is ease;}
+  height: 100%;  width: 100%;}
 
 .images img:hover {transform: scale(1.2);}/* hover works when mouse move over the text*/
 
@@ -150,8 +149,7 @@ footer {
 
 .social img {
   width: 40px;
-  height: 40px;
-  transition: all is ease;}
+  height: 40px;}
 
 .social img:hover {
   background-color: blue;
