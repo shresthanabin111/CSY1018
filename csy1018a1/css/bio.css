@@ -37,10 +37,10 @@ nav ul li {
   width: 250px;
   height: 200px;
   background: red;
-  -webkit-transition: width 2s, height 4s; /*for safari*/
-  -o-transition:  width 2s, height 4s; /*for opera*/
-  -moz-transition:  width 2s, height 4s; /*for mozilla*/
-  transition: width 2s, height 4s;}
+  -webkit-transition: width 1s, height 3s; /*for safari*/
+  -o-transition:  width 1s, height 3s; /*for opera*/
+  -moz-transition:  width 1s, height 3s; /*for mozilla*/
+  transition: width 1s, height 3s;}
 
 .images:hover{
   width: 290px;
@@ -103,7 +103,7 @@ h1{
   padding: 50px;
   background: skyblue;
   margin-right: 15px;
-  padding-bottom: 0px;}
+  padding-bottom: 0px; font-size: 1em; line-height: 30px; text-align: justify;}
 
 p {
   font-size: 1.2em;
